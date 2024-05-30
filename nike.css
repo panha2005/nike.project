@@ -1,0 +1,478 @@
+/* font */
+@font-face {
+    font-family: "Helvetica Display Medium";
+    src: url(/clone/fooder-font/HelveticaNowDisplayMedium.ttf);
+}
+@font-face {
+    font-family: "Helvetica Now Text";
+    src: url(/clone/fooder-font/HelveticaNowText.ttf);
+}
+@font-face {
+    font-family: "Helvetica Now Text Medium";
+    src: url(/clone/fooder-font/HelveticaNowTextMedium.ttf);
+}
+.announcement-bar{
+    display: flex;
+     width: 100%;
+    height: 30px; 
+    display: flex;
+     transition: margin 0.2s ease; 
+    justify-content: space-between;
+    background-color:rgb(237, 235, 235); 
+}
+.announcement-bar-left-section-converse{
+    display: flex;
+    justify-content: left; 
+    gap: 10px;
+    margin-left: 50px;
+}
+.announcement-bar-left-section-jodan{
+    display: flex;
+    justify-content: left;
+}
+.announcement-bar-left-section-jodan img{
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+}
+.announcement-bar-left-section-converse img{
+    width: 28px;
+    height: 28px;
+    padding-top: 5px;
+}
+.header{
+ display: flex;
+ list-style: none;
+ font-size: 11px;
+ font-weight: 20000;
+ margin-top: 5px;
+ margin-right: 50px;
+}
+header li{
+    padding: 3px;
+    padding-top: 10px;
+    font-size: 13px;
+    list-style-type: none;
+}
+.mid{
+    margin: 5px;
+    margin-left: 20px;
+}
+.nike-bar{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: -15px;
+    margin-top: -15px;
+}
+.nike-logo img{
+    width: 70px;
+    margin-top: 15px; 
+    margin-bottom: 12px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.nike-header{
+    font-size: 17px ;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;   
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.btn-search{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+    margin-right: 70px;
+}
+.search-nav{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 70px;
+    border: none;
+    background-color: #E8E8E8;
+    padding-right: 30px;
+    align-items: center;
+    width: 160px;
+    height: 35px;
+
+}
+ .nike-header a{
+margin: 16px;
+ }   
+.pre-nav-design-icon{
+justify-content: space-between;
+}
+.woman-svg img{
+    width: 100%;
+    margin-top: 15px;
+    height: 100%;
+}
+.middle-part1{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.mom-distance{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.just-in{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.just-in{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    list-style: none;
+}
+.just-in p{
+    margin-bottom: 5px;
+}
+.mom-distance h2{
+    text-decoration: none;
+    justify-content: center;
+    font-weight: 900;
+}
+.gift-header{
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.gift-header a{
+    font-size: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+.btn-shop button{
+    margin: auto;
+    border: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    margin-top: 10px;
+}
+.btn-shop a{
+    color: black;
+     font-size: 15px;
+}
+.image{
+    max-width: 50%;
+    height: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+}
+.image img{
+    max-width: 100%;
+    height: auto;
+    align-items: left;
+    display: inline-block;   
+    position: relative;
+}
+.homepage-btn{
+    margin: auto;
+    border: 10px;
+    padding: 5px;
+    width: 70px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;    
+}
+.image-1 img{
+align-items: right;
+}
+.container-show {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.shoe-card{
+    position: relative;
+}
+.shoe-card > img{
+    max-width: 100%;
+    height: 100%;
+    align-items: left;
+}
+.shoe-info{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+}
+.this-week{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0;
+}
+.this-week h3{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.btn-arrival{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    gap: 15px;
+}
+.runing {
+    display:grid;
+    font-size: 23px;
+    justify-content: center;
+    display: flex;
+}
+.runing{
+    width: 250px;
+    margin: auto;
+    border: 10px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    border-radius: 50px;
+}
+.chaman img{
+  max-width: 100%;
+ height: auto;
+}
+.text-class{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.text-class h3{
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shop-by-classics{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-left: 7%;
+}
+.scroller{
+    display: flex;
+    gap: 20px;
+    justify-content: center
+}
+.magic{
+    max-width: 3000px;
+    width: 100%;
+    width: fit-content;
+    overflow: scroll;
+    white-space: nowrap;
+    scroll-snap-align: x mandatory;
+}
+.text-image{
+    font-weight: 100px;   
+}
+.text-image h3{
+    font-size: 50px;
+      display: flex;
+    padding: 20px;
+    font-weight: 100px;
+    font-family: "Helvetica Now Text Medium", sans-serif;
+    margin-top: 70px;
+}
+.container-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: auto;
+    max-width: 1920px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 0px 30px 24px;
+}
+.shoe-footer {
+    position: relative;
+      overflow: hidden;
+}
+.shoe-footer > img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+.image-infor {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+}
+.footer-btn {
+    margin: auto;
+    padding: 7px;
+    width: 70px;
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.footer-btn-1{
+    margin: auto;
+    padding: 7px;
+    width: 110px;
+    color: #000000;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.container-end {
+    display: grid;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    flex-direction: column;
+    gap: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.feature {
+justify-content: center;
+}
+.feature p {
+    text-align: left;
+    margin-bottom: 50px;
+    color: #000000;
+}
+.feature h3 {
+    font-size: 12px;
+    overflow: hidden;
+    flex-grow: 1; 
+    justify-content: center; 
+    align-items: left; 
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgb(113, 112, 109);
+}
+.outer-container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 20px;
+
+}
+ .container-stop{
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 100px;
+    background-color: #000000;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+}
+.endles p{
+    font-size: 15px;
+    margin-bottom: 28px;
+    color: white;
+}
+.endles h3{
+    font-size: 15px;
+    color: #fff;
+}
+.endles-1{
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    gap:15px;
+}
+.sub-footer{
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    justify-content: right;
+    margin: auto;
+    background-color: #000000;
+    text-align: right;
+}
+.sub-footer h1{
+    font-size: 12px;
+    justify-content: right;
+    color: #fff;
+    display: flex;
+    text-align: right; 
+}
+.sub-footer p{
+    padding: -40px;
+    margin-top: -8px;
+}
+.sub-1{
+    background-color: black;
+    justify-content: right;
+    text-align: right;
+}
+.sub-1 h3{
+   margin:0px; 
+   font-size: 12px;
+   color:#fff;
+   text-align: right;
+   margin-right: 10px; 
+}
+
+.location{
+    display: flex;
+    padding: 10px;
+    gap: 3px;
+    background-color: #000000;
+}
+.location p{
+    display: flex;
+    gap: 14px;
+    font-size: 12px;
+    margin:5px ;
+    color:#fff;
+}
+.location h1{
+    display: flex;
+    padding: 4px;
+    color: #fff;
+}
+.location h2{
+    display: flex;
+    gap: 11px;
+    font-size: 12px;
+    margin:7px ;
+    color:#fff;
+}
